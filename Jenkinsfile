@@ -90,7 +90,6 @@ spec:
   selector:
     app: ${APP_NAME}-deploy
   ports:
-    - nodePort: 30100
       protocol: TCP
       port: ${PORT}
       targetPort: ${PORT}
