@@ -86,10 +86,10 @@ kind: Service
 metadata:
   name: ${APP_NAME}-service
 spec:
-  type: NodePort
   selector:
     app: ${APP_NAME}-deploy
   ports:
+    - name: http
       protocol: TCP
       port: ${PORT}
       targetPort: ${PORT}
