@@ -3,7 +3,7 @@ pipeline {
    	 PROJECT = "cwpipelinelecturer"
  	   APP_NAME = "cw01lecturer"
      BRANCH_NAME = "dev_lec_branch"
-     PORT = "5070"
+     PORT = "5090"
    	 //IMAGE_TAG = "${PROJECT}/${APP_NAME}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
    	 IMAGE_TAG = "${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
                 }
